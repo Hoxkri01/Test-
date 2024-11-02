@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TicTacTok {
 
-        private static final char[][]board =new char[][] {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
+        public static final char[][]board =new char[][] {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
         private static char playerSymbol;
         private static char computerSymbol;
         private static boolean isPlayerTurn;
